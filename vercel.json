@@ -6,6 +6,8 @@
             "use": "@vercel/node"
         }
     ],
+    "buildCommand": "nest build",
+    "installCommand": "npm install",
     "routes": [
         {
             "src": "/(.*)",
